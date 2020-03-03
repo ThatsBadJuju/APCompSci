@@ -5,6 +5,7 @@ public class Book {
     private double regularPrice;
     private int yearPublished;
 
+    //multi-arg constructor
     public Book(String publisher, double regularPrice, int yearPublished) {
         this.publisher = publisher;
         this.regularPrice = regularPrice;
